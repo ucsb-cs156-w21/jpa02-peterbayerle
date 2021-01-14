@@ -1,30 +1,30 @@
 # STARTER-jpa02
 
-* TODO: Change the title of this README 
+* TODO: Change the title of this README
   in the text `# STARTER-jpa02` above
   to match the name of your repo, i. e., `lab02-yourgithubid`, then delete
   this TODO item.
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
+* TODO: Correct the links to repo below,
+  then delete this TODO.  Replace it with
+  a link to your repo, e.g.
   https://github.com/ucsb-cs156-f20/jpa02-cgaucho
 
-Repo: https://ucsb-cs156-f20/STARTER-jpa02
+Repo: https://github.com/ucsb-cs156-w21/jpa02-peterbayerle
 
-* TODO: Correct the links to app on Heroku below, 
-  then delete this TODO.  Replace it with 
+* TODO: Correct the links to app on Heroku below,
+  then delete this TODO.  Replace it with
   a link to your running app on Heroku, e.g.
   https://cs156-f20-jpa02-cgaucho.herokuapp.com
 
 
-On Heroku: https://cs156-f20-jpa02-cgaucho.herokuapp.com
+On Heroku: https://jpa02-pbayerle.herokuapp.com/
 
 * TODO: Correct the links to codecov report below
-  then delete this TODO.  Replace it with 
+  then delete this TODO.  Replace it with
   a link to your codecov report.
 
-On Codecov: https://codecov.io/gh/ucsb-cs156-f20/jpa02-cgaucho
+On Codecov: https://codecov.io/gh/ucsb-cs156-w21/jpa02-peterbayerle
 
 
 # About this repo
@@ -66,18 +66,16 @@ below.
   * Converting `pom.xml` to use Java 11
 * Heroku Support
   * Ensuring that the `PORT` environment variable is
-    used to define the port on which Spring Boot starts the web server 
+    used to define the port on which Spring Boot starts the web server
   * Providing a `Procfile` for deployment on Heroku
   * Added a `system.properties` file in the main directory
     which specifies the Java version for Heroku.
 * Testing and CI
   * Adding JUnit tests
-  * Adding jacoco as a plugin to measure test 
+  * Adding jacoco as a plugin to measure test
     case coverage
   * Adding pitest for mutation test coverage.
   * Adding support for GitHub Actions to run
     the test cases, compute jacoco report,
     upload code coverage reports to Codecov.io,
     and produce pitest artifacts.
-
-
